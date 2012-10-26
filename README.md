@@ -1,4 +1,0 @@
-WSP
-===
-
-Web Standards Project
