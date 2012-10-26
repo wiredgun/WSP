@@ -1,0 +1,132 @@
+ body {
+            font-family:sans-serif;
+            background-color:#eee;
+            }
+
+            #frame {
+            border-style:solid;
+            border-width:2px;
+            padding:2%;
+            width:65%;
+            background-color:#fff;
+            }
+
+            #hd-container {
+            width:100%;
+            }
+
+            #header {
+            width:100%;
+            text-align:left;
+            }
+
+            #content {
+            font-size:16px;
+            line-height:145%;
+            width:100%;
+            text-align:left;
+            clear:left;
+            }
+
+            h3 {
+            font-family:times new roman,serif;
+            line-height:145%; 
+            text-align:left;
+            font-size:24px;
+            }
+            
+            h2 {
+            font-family:times new roman,serif;
+            text-align:left;
+            font-size:32px;
+            }
+/* Media Queries 
+============================================================== */
+
+/* Tablet portrait to standard 1024px (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 1024px){
+        #formcontainer {float:right; width:40%; margin: 1%;}
+		#frame {width: 95%;}
+		#content {font-size:18px;line-height:145%; width:100%; text-align:left; clear:left;}
+		h1 {font-family:serif; text-align:center; line-height:140%; font-size:28px;}
+}
+
+/* Mobile landscape to tablet portrait (devices and browsers) */
+	@media screen and (min-width: 481px) and (max-width: 800px){
+		#frame {width: 95%;}
+		#content {font-size:16px;line-height:145%; width:100%; text-align:left; clear:left;}
+        #buttoncontainer {color:gold; float:center; font-family:arial; font-size:9px;}
+		h1 {font-family:serif; text-align:center; line-height:135%; font-size:26px;}
+            #formbutton {
+            box-shadow:3px -3px 4px #aaaaaa;
+            padding:2%;
+            border-style:solid;
+            border-width:1px;
+            border-color:black;
+            width:55%;
+            background-color:gold;
+            color:#000;
+            border-radius:5px;
+            text-align:center;
+            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
+            font-size: 12px}
+}
+
+/* Mobile potrait to mobile landscape (devices and browsers) */
+	@media screen and (max-width: 480px){
+        #formcontainer {float:none; width:90%; margin: 1%;}
+        #formdata p input {background-color:#e5e5e5; width:100%; box-shadow:2px 0 1px #aaaaaa;}
+        #buttoncontainer {color:gold; float:none; font-family:arial; font-size:9px;}
+		#frame {width: 95%;}
+		#content {font-size:13px;line-height:145%; width:97%; text-align:left; clear:left;}
+		h1 {font-family:serif; text-align:center; line-height:145%; font-size:24px;}
+        h2 {font-family:serif; text-align: left; font-size:18px;}
+            #formbutton {
+            box-shadow:3px -3px 4px #aaaaaa;
+            padding:2%;
+            border-style:solid;
+            border-width:1px;
+            border-color:black;
+            width:55%;
+            background-color:gold;
+            color:#000;
+            border-radius:5px;
+            text-align:center;
+            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
+            font-size: 14px}
+        #congratsformbox {
+            border-style:solid;
+            border-width:1px;
+            border-color:black;
+            border-radius:3px;
+            width:90%;
+            padding:5px;
+            float:left;
+            color:#000;
+            font-size:14px;
+            font-weight:normal;
+            font-family: times new roman,serif;
+            text-align:left;
+            margin-left: 5%;
+            }
+            
+            #footer ul {
+            list-style-image: none;
+            list-style-type: none;
+            margin: 0 auto;
+            padding-bottom: 2%;
+            text-align: left;
+            width:70%;
+            }
+            
+            #footer p {
+            color: #000;
+            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
+            font-size: 9px;
+            line-height: 120%;
+            margin: 0 auto;
+            padding-bottom: 1%;
+            text-align: center;
+            width:100%;
+            }
+        }
