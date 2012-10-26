@@ -52,6 +52,46 @@
             width:100%;
             text-align:left;
             }
+            
+            #intent {
+            border-style:solid;
+            border-width:3px;
+            border-color:blue;
+            padding:5px;
+            width:99%;
+            background-color:#c8c7de;
+            }
+
+            #compete {
+            border-style:solid;
+            border-width:3px;
+            border-color:blue;
+            padding:5px;
+            width:99%;
+            background-color:#c8c7de;
+            }
+            
+            #keywords {
+            width:40%;
+            }
+
+            #demo {
+            border-style:solid;
+            border-width:3px;
+            border-color:blue;
+            padding:5px;
+            width:99%;
+            background-color:#c8c7de;
+            }
+
+            #target {
+            border-style:solid;
+            border-width:3px;
+            border-color:blue;
+            padding:5px;
+            width:99%;
+            background-color:#c8c7de;
+            }
 
             #content {
             font-size:16px;
