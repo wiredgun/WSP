@@ -7,6 +7,7 @@
             border-style:solid;
             border-width:5px;
             border-color:blue;
+            margin-left:1%;
             padding:2%;
             width:66%;
             background-color:#fff;
@@ -28,7 +29,7 @@
 
 			nav li {
 			float: left;
-			width: 35%;
+			width: 45%;
 			}
 
 			nav ul li:first-child {
@@ -38,7 +39,7 @@
 			nav a {
 			text-decoration: none;
 			color: #000;
-			line-height: 120%;
+			line-height: 100%;
 			font-size: 16px;
 			height: 25px;
 			display: block;
@@ -105,32 +106,34 @@
             font-family:times new roman,serif;
             line-height:145%; 
             text-align:left;
-            font-size:24px;
+            font-size:22px;
             }
             
             h2 {
             font-family:times new roman,serif;
             text-align:left;
-            font-size:32px;
+            font-size:28px;
             }
             
 			table {
 			border-collapse: collapse;
-			border: 1px solid #000;
-			float: center;
-			margin-top: 5%; /* 45px */
-			margin-right: 5%; /* 25px */
+			border:1px solid #000;
+			float:center;
+			font-size: 12px;
+			width:98%;
+			margin-top:2.5%;
+			margin-left:1%;
 			}
 
 			td {
-			border: none;
-			padding: .75%;
-			font-family: serif;
+			border:none;
+			padding:.65%;
+			font-family: san serif;
 			font-size: 10px;
 			}
 
 			th {
-			text-align: left;
+			text-align:center;
 			background-color: #a91e22;
 			color: #fff;
 			padding: 1%; /* .3em */
@@ -140,93 +143,3 @@
 			background-color: #e8d173;
 			}
             
-/* Media Queries 
-============================================================== */
-
-/* Tablet portrait to standard 1024px (devices and browsers) */
-	@media screen and (min-width: 768px) and (max-width: 1024px){
-        #formcontainer {float:right; width:40%; margin: 1%;}
-		#frame {width: 95%;}
-		#content {font-size:18px;line-height:145%; width:100%; text-align:left; clear:left;}
-		h1 {font-family:serif; text-align:center; line-height:140%; font-size:28px;}
-}
-
-/* Mobile landscape to tablet portrait (devices and browsers) */
-	@media screen and (min-width: 481px) and (max-width: 800px){
-		#frame {width: 95%;}
-		#content {font-size:16px;line-height:145%; width:100%; text-align:left; clear:left;}
-        #buttoncontainer {color:gold; float:center; font-family:arial; font-size:9px;}
-		h1 {font-family:serif; text-align:center; line-height:135%; font-size:26px;}
-            #formbutton {
-            box-shadow:3px -3px 4px #aaaaaa;
-            padding:2%;
-            border-style:solid;
-            border-width:1px;
-            border-color:black;
-            width:55%;
-            background-color:gold;
-            color:#000;
-            border-radius:5px;
-            text-align:center;
-            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
-            font-size: 12px}
-}
-
-/* Mobile potrait to mobile landscape (devices and browsers) */
-	@media screen and (max-width: 480px){
-        #formcontainer {float:none; width:90%; margin: 1%;}
-        #formdata p input {background-color:#e5e5e5; width:100%; box-shadow:2px 0 1px #aaaaaa;}
-        #buttoncontainer {color:gold; float:none; font-family:arial; font-size:9px;}
-		#frame {width: 95%;}
-		#content {font-size:13px;line-height:145%; width:97%; text-align:left; clear:left;}
-		h1 {font-family:serif; text-align:center; line-height:145%; font-size:24px;}
-        h2 {font-family:serif; text-align: left; font-size:18px;}
-            #formbutton {
-            box-shadow:3px -3px 4px #aaaaaa;
-            padding:2%;
-            border-style:solid;
-            border-width:1px;
-            border-color:black;
-            width:55%;
-            background-color:gold;
-            color:#000;
-            border-radius:5px;
-            text-align:center;
-            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
-            font-size: 14px}
-        #congratsformbox {
-            border-style:solid;
-            border-width:1px;
-            border-color:black;
-            border-radius:3px;
-            width:90%;
-            padding:5px;
-            float:left;
-            color:#000;
-            font-size:14px;
-            font-weight:normal;
-            font-family: times new roman,serif;
-            text-align:left;
-            margin-left: 5%;
-            }
-            
-            #footer ul {
-            list-style-image: none;
-            list-style-type: none;
-            margin: 0 auto;
-            padding-bottom: 2%;
-            text-align: left;
-            width:70%;
-            }
-            
-            #footer p {
-            color: #000;
-            font-family: "Futura Bold",Arial,Helvetica,sans-serif;
-            font-size: 9px;
-            line-height: 120%;
-            margin: 0 auto;
-            padding-bottom: 1%;
-            text-align: center;
-            width:100%;
-            }
-        }
